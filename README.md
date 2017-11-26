@@ -67,7 +67,7 @@ In the datasets, there are two data files present
 1. Clone this repository: `git clone https://github.com/pulkitver1991/Road-Segmentation.git`
 2. [Optional] Download Kitti Road Data:
     1. Retrieve kitti data url here: [http://www.cvlibs.net/download.php?file=data_road.zip](http://www.cvlibs.net/download.php?file=data_road.zip)
-    2. Retrieve VGG pretrained model here: [https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/vgg.zi](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/vgg.zi)
+    2. Retrieve VGG pretrained model here: [https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/vgg.zip](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/vgg.zip)
 
 ## Running the SUPERPIX Code
 
