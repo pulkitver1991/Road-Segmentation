@@ -76,6 +76,12 @@ In the datasets, there are two data files present
 * The result of the segmented images is saved in *SegmentedImages* Folder
 * Run the code as:  *python main.py*
 
+* Segmented Results:
+![img2](SUPERPIX/Screenshots/img2.png "Actual Image")
+![img1](SUPERPIX/Screenshots/img1.png "Segmented Image")
+![img4](SUPERPIX/Screenshots/img4.png "Actual Image")
+![img3](SUPERPIX/Screenshots/img3.png "Segmented Image")
+
 ## Running the PIX Code
 
 
