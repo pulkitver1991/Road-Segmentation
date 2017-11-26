@@ -5,6 +5,11 @@ Uploading still in progress
 
 
 ## Dependencies :
+
+* [Dropwizard]( ) - The web framework used
+* [Maven]( ) - Dependency Management
+* [ROME]( ) - Used to generate RSS Feeds
+
 ```
 --- [Python2] 
 --- [Sklearn]
@@ -46,7 +51,9 @@ Road-Segmentation/
 |    |--- nb_model.pkl
 |    
 |--- README.md
+
 ```
+
 In the datasets, there are two data files present
 
 	* data_road : containing the kitti dataset.
