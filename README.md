@@ -48,14 +48,14 @@ Road-Segmentation/
 |--- README.md
 ```
 In the datasets, there are two data files present
-```
-	--- data_road : containing the kitti dataset
+
+	* data_road : containing the kitti dataset.
 		Retrieve kitti data url [here](http://www.cvlibs.net/download.php?file=data_road.zip)
-```
-```
-	--- vgg16 : vgg pretrained model
+
+
+	* vgg16 : vgg pretrained model,
 		[link to download]() 
-```
+
 # Running the SuperPix Code
 
 
