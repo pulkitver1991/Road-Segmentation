@@ -77,10 +77,12 @@ In the datasets, there are two data files present
 * Run the code as:  *python main.py*
 
 * Segmented Results:
-![img2](SUPERPIX/Screenshots/img2.png "Actual Image")
-![img1](SUPERPIX/Screenshots/img1.png "Segmented Image")
-![img4](SUPERPIX/Screenshots/img4.png "Actual Image")
-![img3](SUPERPIX/Screenshots/img3.png "Segmented Image")
+
+<img src="SUPERPIX/Screenshots/img2.png" width="288"> <img src="SUPERPIX/Screenshots/img4.png" width="288"> 
+
+<img src="SUPERPIX/Screenshots/img1.png" width="288"> <img src="SUPERPIX/Screenshots/img3.png" width="288"> 
+
+
 
 ## Running the PIX Code
 
