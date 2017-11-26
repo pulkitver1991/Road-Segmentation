@@ -6,16 +6,11 @@ Uploading still in progress
 
 ## Dependencies :
 
-* [Dropwizard]( ) - The web framework used
-* [Maven]( ) - Dependency Management
-* [ROME]( ) - Used to generate RSS Feeds
-
-
-* [Python2]
-* [Sklearn]
-* [Skimage]
-* [Numpy] 
-* [Glob]
+* Python2
+* Sklearn
+* Skimage
+* Numpy 
+* Glob
 
 
 ## Directory Structure for the code 
@@ -61,7 +56,7 @@ In the datasets, there are two data files present
 
 
 * vgg16 : vgg pretrained model,
-	[link to download]() 
+	[download]() 
 
 # Running the SuperPix Code
 
