@@ -143,6 +143,8 @@ In the datasets, there are two data files present
 * Numpy 
 * Glob
 
+### Steps
+
 * The Code uses Pretrained VGG Model for Road segmentation. The reference for this code is taken from `https://github.com/udacity/CarND-Semantic-Segmentation.git`. The code is meant for making an attempt to CNN and help is taken from the above repository.
 * The code runs on Python3
 * Call `python3 nn_vgg.py` to run the code	
