@@ -9,15 +9,11 @@ __maintainer__ = "Team Pass"
 
 # import necessary directories
 import os
-import sys
 import glob
-import random
-import argparse
 import numpy as np
 from skimage import io
 from skimage import color
 from skimage import exposure
-import matplotlib.pyplot as plt
 from sklearn import svm, metrics
 from sklearn.externals import joblib
 from skimage.util import img_as_float
