@@ -3,12 +3,13 @@ Code for SMAI Project on Road Segmentation with different Classifiers.
 
 Uploading still in progress
 
+
 ## Dependencies :
---- Python2 
---- Sklearn
---- Skimage
---- Numpy 
---- Glob
+--- [Python2] 
+--- [Sklearn]
+--- [Skimage]
+--- [Numpy] 
+--- [Glob]
 
 ## Directory Structure for the code 
 
