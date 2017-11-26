@@ -25,11 +25,14 @@ Road-Segmentation/
 |--- NN_VGG/
 |    |
 |    |--- Output/
+|	 |---Screenshots/
 |    |--- nn_vgg.py
 |    
 |--- SUPERPIX/
 |    |
 |    |--- main.py
+|	 |--- Screenshots/
+|	 |--- segmentedImages/
 |    |--- test_data.pkl
 |    |--- train_data.pkl
 |    |--- test_label.pkl
@@ -39,11 +42,12 @@ Road-Segmentation/
 |--- PIX/
 |    |
 |    |--- main.py
-|    |--- test_data.pkl
-|    |--- train_data.pkl
-|    |--- test_label.pkl
-|    |--- train_label.pkl
-|    |--- nb_model.pkl
+|	 |--- segmentedImages/
+|    |--- Screenshots
+|
+|--- GMM/
+|    |
+|    |--- main.py	
 |    
 |--- README.md
 |--- smai.pptx
@@ -96,8 +100,7 @@ In the datasets, there are two data files present
 * The Code displays some intermediate work and may have some bugs
 * The training and testing vector is not created in this case (due to large size)
 * You can create the vectors by setting the variable *create_vectors_again* high and run the code
-* Naive bayes model is already learnt is already provided and be used directly
-* To fit a model again, change the name of the classifier in `classifier` function, set the `run_train` to high and run the code
+* To fit a model, change the name of the classifier in `classifier` function, set the `run_train` to high and run the code
 * Select the Classifier in the classifier function
 * The available classifiers can be : 
 
@@ -115,6 +118,13 @@ In the datasets, there are two data files present
 <img src="PIX/Screenshots/2.png" width="400" height="200"> <img src="PIX/Screenshots/4.png" width="400" height="200"> 
 
 <img src="PIX/Screenshots/1.png" width="400" height="200"> <img src="PIX/Screenshots/3.png" width="400" height="200"> 
+
+
+## Running the GMM Code Code
+
+
+* The Code uses GMM method for Segmentation
+* Call `python3 nn_vgg.py` to run the code	
 
 
 ## Running the NN_VGG Code
