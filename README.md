@@ -47,7 +47,8 @@ Road-Segmentation/
 |
 |--- GMM/
 |    |
-|    |--- main.py	
+|    |--- main.py
+|    |--- Screenshots	
 |    
 |--- README.md
 |--- smai.pptx
@@ -124,8 +125,11 @@ In the datasets, there are two data files present
 
 
 * The Code uses GMM method for Segmentation
-* Call `python3 nn_vgg.py` to run the code	
+* Call `python main.py` to run the code	
 
+* Some Segmented results:
+
+<img src="GMM/Screenshots/2.png" width="400" height="200"> 
 
 ## Running the NN_VGG Code
 
