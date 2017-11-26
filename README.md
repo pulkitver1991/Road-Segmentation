@@ -94,7 +94,7 @@ In the datasets, there are two data files present
 * The training and testing vector is already created, and is provided in the directory
 * If you want to create vector again, set the variable *create_vectors_again* high
 * Naive bayes model is already learnt is already provided and be used directly
-* To fit a model again, change the name of the classifier in `classifier` function and run the code again
+* To fit a model again, change the name of the classifier in `classifier` function, set the `run_train` to high and run the code
 * Select the Classifier in the classifier function
 * The available classifiers can be : 
 
@@ -104,6 +104,8 @@ In the datasets, there are two data files present
 	--- Random Forest (rf)
 	--- KNN (knn)
 	```
+* Call `python main.py ../datasets/data_road/training ../datasets/data_road/testing` to run the code	
+* The result of the segmented images is saved in *SegmentedImages* Folder
 
 * Some Segmented Results:
 
