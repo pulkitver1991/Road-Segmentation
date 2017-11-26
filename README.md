@@ -74,7 +74,7 @@ In the datasets, there are two data files present
 * The Code uses SuperPixel method of segmentation
 * The training and testing vector is already created, and is provided in the directory
 * If you want to create vector again, set the variable *create_vectors_again* high
-* Naive bayes model is already learnt is already provided and be used directly
+* Naive bayes model is already learnt and provided in the directory, so can be used directly
 * To fit a model again, set the variable *start_training_model* high
 * Select the Classifier using *select_classifier*
 * The available classifiers are : 
