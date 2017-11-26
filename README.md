@@ -60,10 +60,10 @@ In the datasets, there are two data files present
 2. [Optional] Download Kitti Road Data:
     1. Retrieve kitti data url here: [http://www.cvlibs.net/download.php?file=data_road.zip](http://www.cvlibs.net/download.php?file=data_road.zip)
     2. Download VGG16 Model
-    3. Call `python main.py`
 
 ## Running the SUPERPIX Code
 
+* The Code use SuperPixel method of segmentation
 * The training and testing vector is already created, and is provided in the directory
 * If you want to create vector again, set the variable *create_vectors_again* high
 * Naive bayes model is already learnt is already provided and be used directly
@@ -77,16 +77,39 @@ In the datasets, there are two data files present
 	--- Random Forest (rf)
 	--- KNN (knn)
 	```
+* Call `python main.py` to run the code	
 * The result of the segmented images is saved in *SegmentedImages* Folder
 
-* Segmented Results:
+* Some Segmented Results:
 
 <img src="SUPERPIX/Screenshots/2.png" width="400" height="200"> <img src="SUPERPIX/Screenshots/4.png" width="400" height="200"> 
 
 <img src="SUPERPIX/Screenshots/1.png" width="400" height="200"> <img src="SUPERPIX/Screenshots/3.png" width="400" height="200"> 
 
 
-
 ## Running the PIX Code
 
+* The Code use Pixelwise Implementation of segmentation
+* The Code displays some intermediate work and may have some bugs
+* The training and testing vector is already created, and is provided in the directory
+* If you want to create vector again, set the variable *create_vectors_again* high
+* Naive bayes model is already learnt is already provided and be used directly
+* To fit a model again, change the name of the classifier in `classifier` function and run the code again
+* Select the Classifier in the classifier function
+* The available classifiers can be : 
 
+	```
+	--- Naive Bayes (nb)
+	--- SVM (svm)
+	--- Random Forest (rf)
+	--- KNN (knn)
+	```
+
+* Some Segmented Results:
+
+<img src="PIX/Screenshots/2.png" width="400" height="200"> <img src="PIX/Screenshots/4.png" width="400" height="200"> 
+
+<img src="PIX/Screenshots/1.png" width="400" height="200"> <img src="PIX/Screenshots/3.png" width="400" height="200"> 
+
+
+## Running the NN_VGG Code
