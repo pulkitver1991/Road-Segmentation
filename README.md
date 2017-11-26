@@ -81,9 +81,9 @@ In the datasets, there are two data files present
 
 * Segmented Results:
 
-<img src="SUPERPIX/Screenshots/img2.png" width="288"> <img src="SUPERPIX/Screenshots/img4.png" width="288"> 
+<img src="/SUPERPIX/Screenshots/img2.png" width="300"> <img src="/SUPERPIX/Screenshots/img4.png" width="300"> 
 
-<img src="SUPERPIX/Screenshots/img1.png" width="288"> <img src="SUPERPIX/Screenshots/img3.png" width="288"> 
+<img src="/SUPERPIX/Screenshots/img1.png" width="300"> <img src="/SUPERPIX/Screenshots/img3.png" width="300"> 
 
 
 
