@@ -10,13 +10,13 @@ Uploading still in progress
 * [Maven]( ) - Dependency Management
 * [ROME]( ) - Used to generate RSS Feeds
 
-```
---- [Python2] 
---- [Sklearn]
---- [Skimage]
---- [Numpy] 
---- [Glob]
-```
+
+* [Python2]
+* [Sklearn]
+* [Skimage]
+* [Numpy] 
+* [Glob]
+
 
 ## Directory Structure for the code 
 ```
@@ -56,12 +56,12 @@ Road-Segmentation/
 
 In the datasets, there are two data files present
 
-	* data_road : containing the kitti dataset.
-		Retrieve kitti data url [here](http://www.cvlibs.net/download.php?file=data_road.zip)
+* data_road : containing the kitti dataset.
+	Retrieve kitti data url [here](http://www.cvlibs.net/download.php?file=data_road.zip)
 
 
-	* vgg16 : vgg pretrained model,
-		[link to download]() 
+* vgg16 : vgg pretrained model,
+	[link to download]() 
 
 # Running the SuperPix Code
 
