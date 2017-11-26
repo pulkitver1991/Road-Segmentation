@@ -46,6 +46,7 @@ Road-Segmentation/
 |    |--- nb_model.pkl
 |    
 |--- README.md
+|--- smai.pptx
 
 ```
 
@@ -59,11 +60,11 @@ In the datasets, there are two data files present
 1. Clone this repository: `git clone https://github.com/pulkitver1991/Road-Segmentation.git`
 2. [Optional] Download Kitti Road Data:
     1. Retrieve kitti data url here: [http://www.cvlibs.net/download.php?file=data_road.zip](http://www.cvlibs.net/download.php?file=data_road.zip)
-    2. Download VGG16 Model
+    2. Retrieve VGG pretrained model here: [https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/vgg.zi](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/vgg.zi)
 
 ## Running the SUPERPIX Code
 
-* The Code use SuperPixel method of segmentation
+* The Code uses SuperPixel method of segmentation
 * The training and testing vector is already created, and is provided in the directory
 * If you want to create vector again, set the variable *create_vectors_again* high
 * Naive bayes model is already learnt is already provided and be used directly
@@ -89,7 +90,7 @@ In the datasets, there are two data files present
 
 ## Running the PIX Code
 
-* The Code use Pixelwise Implementation of segmentation
+* The Code uses Pixelwise Implementation of segmentation
 * The Code displays some intermediate work and may have some bugs
 * The training and testing vector is not created in this case (due to large size)
 * You can create the vectors by setting the variable *create_vectors_again* high and run the code
@@ -115,3 +116,23 @@ In the datasets, there are two data files present
 
 
 ## Running the NN_VGG Code
+
+### Dependencies :
+
+* Python3
+* Tensorflow
+* Scipy
+* Skimage
+* Numpy 
+* Glob
+
+* The Code uses Pretrained VGG Model for Road segmentation. The reference for this code is taken from `https://github.com/udacity/CarND-Semantic-Segmentation.git`. The code is meant for making an attempt to CNN and help is taken from the above repository.
+* The code runs on Python3
+* Call `python3 nn_vgg.py` to run the code	
+* The result of the segmented images is saved in *Output* Folder
+
+* Some Segmented Results:
+
+<img src="NNVGG/Screenshots/2.png" width="400" height="200"> <img src="NNVGG/Screenshots/4.png" width="400" height="200"> 
+
+<img src="NNVGG/Screenshots/1.png" width="400" height="200"> <img src="NNVGG/Screenshots/3.png" width="400" height="200"> 

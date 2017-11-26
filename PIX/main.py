@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 
-"""__author__ = "Pulkit Verma, AVS SAI Bhargav, and Anish Shastri"
+"""__author__ = "Anish Shastri, AVS SAI Bhargav, and Pulkit Verma"
 __copyright__ = "Copyright 2017, TEAM PASS"
 __license__ = "Open Source"
 __version__ = "Python 2.7"
