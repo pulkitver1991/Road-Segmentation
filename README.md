@@ -58,6 +58,23 @@ In the datasets, there are two data files present
 * vgg16 : vgg pretrained model,
 	[download]() 
 
-# Running the SuperPix Code
+## Running the SUPERPIX Code
+
+* The training and testing vector is already created, and is provided in the directory
+* If you want to create vector again, set the variable *create_vectors_again* high
+* Naive bayes model is already learnt is already provided and be used directly
+* To fit a model again, set the variable *start_training_model* high
+* Select the Classifier using *select_classifier*
+* The available classifiers are : 
+
+	```
+	--- Naive Bayes (nb)
+	--- SVM (svm)
+	--- Random Forest (rf)
+	--- KNN (knn)
+	```
+* The result of the segmented images is saved in *SegmentedImages* Folder
+
+## Running the PIX Code
 
 
