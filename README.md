@@ -150,6 +150,6 @@ In the datasets, there are two data files present
 
 * Some Segmented Results:
 
-<img src="NNVGG/Screenshots/2.png" width="400" height="200"> <img src="NNVGG/Screenshots/4.png" width="400" height="200"> 
+<img src="NN_VGG/Screenshots/2.png" width="400" height="200"> <img src="NN_VGG/Screenshots/4.png" width="400" height="200"> 
 
-<img src="NNVGG/Screenshots/1.png" width="400" height="200"> <img src="NNVGG/Screenshots/3.png" width="400" height="200"> 
+<img src="NN_VGG/Screenshots/1.png" width="400" height="200"> <img src="NN_VGG/Screenshots/3.png" width="400" height="200"> 
