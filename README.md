@@ -52,11 +52,15 @@ Road-Segmentation/
 In the datasets, there are two data files present
 
 * data_road : containing the kitti dataset.
-	Retrieve kitti data url [here](http://www.cvlibs.net/download.php?file=data_road.zip)
+* vgg16 : vgg pretrained model
 
+## Setup
 
-* vgg16 : vgg pretrained model,
-	[download]() 
+1. Clone this repository: `git clone https://github.com/pulkitver1991/Road-Segmentation.git`
+2. [Optional] Download Kitti Road Data:
+    1. Retrieve kitti data url here: [http://www.cvlibs.net/download.php?file=data_road.zip](http://www.cvlibs.net/download.php?file=data_road.zip)
+    2. Download VGG16 Model
+    3. Call `python main.py`
 
 ## Running the SUPERPIX Code
 
@@ -74,7 +78,6 @@ In the datasets, there are two data files present
 	--- KNN (knn)
 	```
 * The result of the segmented images is saved in *SegmentedImages* Folder
-* Run the code as:  *python main.py*
 
 * Segmented Results:
 
