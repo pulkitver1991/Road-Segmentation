@@ -91,18 +91,18 @@ In the datasets, there are two data files present
 
 * The Code use Pixelwise Implementation of segmentation
 * The Code displays some intermediate work and may have some bugs
-* The training and testing vector is already created, and is provided in the directory
-* If you want to create vector again, set the variable *create_vectors_again* high
+* The training and testing vector is not created in this case (due to large size)
+* You can create the vectors by setting the variable *create_vectors_again* high and run the code
 * Naive bayes model is already learnt is already provided and be used directly
 * To fit a model again, change the name of the classifier in `classifier` function, set the `run_train` to high and run the code
 * Select the Classifier in the classifier function
 * The available classifiers can be : 
 
 	```
-	--- Naive Bayes (nb)
-	--- SVM (svm)
-	--- Random Forest (rf)
-	--- KNN (knn)
+	--- Naive Bayes 
+	--- SVM 
+	--- Random Forest 
+	--- KNN 
 	```
 * Call `python main.py ../datasets/data_road/training ../datasets/data_road/testing` to run the code	
 * The result of the segmented images is saved in *SegmentedImages* Folder
