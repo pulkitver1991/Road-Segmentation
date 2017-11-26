@@ -129,7 +129,8 @@ In the datasets, there are two data files present
 
 * Some Segmented results:
 
-<img src="GMM/Screenshots/2.png" width="400" height="200"> <img src="GMM/Screenshots/2.png" width="400" height="200">
+<img src="GMM/Screenshots/2.png" width="400" height="200"> 
+<img src="GMM/Screenshots/1.png" width="400" height="200">
 
 ## Running the NN_VGG Code
 
