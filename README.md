@@ -55,6 +55,8 @@ In the datasets, there are two data files present
 * data_road : containing the kitti dataset.
 * vgg16 : vgg pretrained model
 
+*NOTE* : In data_road folder, we are not using the `testing` folder, which is already present in the downloaded dataset, instead we created our own `testing` dataset folder. This folder has both the testing images and their ground truths. For this we have taken the last 50 images from the `training` folder i.e. from `uu_000048` to `uu_000097`. 
+
 ## Setup
 
 1. Clone this repository: `git clone https://github.com/pulkitver1991/Road-Segmentation.git`
