@@ -74,6 +74,7 @@ In the datasets, there are two data files present
 	--- KNN (knn)
 	```
 * The result of the segmented images is saved in *SegmentedImages* Folder
+* Run the code as:  *python main.py*
 
 ## Running the PIX Code
 
